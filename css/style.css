@@ -1,0 +1,242 @@
+body {
+    background-color: aquamarine;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* header */
+.bg_delivery {
+    border-bottom: 1px solid black;
+    background-color: rgb(211, 212, 211);
+}
+
+.shipping {
+    border-right: 1px solid black;
+    padding-left: 5px;
+}
+
+.shipping_icon i {
+    margin-top: 15px;
+    font-size: 18px;
+    float: left !important;
+    padding-right: 15px;
+}
+
+.shipping_text h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 14px;
+    padding-bottom: 15px;
+}
+
+.money {
+    border-right: 1px solid black;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+
+.money_icon i {
+    margin-top: 15px;
+    font-size: 20px;
+    float: left !important;
+    padding-right: 15px;
+    padding-left: 30px;
+}
+
+.money_text h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.support_icon i {
+    margin-top: 15px;
+    font-size: 20px;
+    float: left !important;
+    padding-right: 15px;
+    padding-left: 90px;
+}
+
+.support_text h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* logo section */
+.logo img {
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.search {
+    padding-top: 45px;
+    float: left;
+}
+
+.search_input {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    float: left;
+}
+
+.search i {
+    padding: 7px 10px;
+    background-image: linear-gradient(to bottom right, #f50919, #fc09f3);
+    color: wheat;
+    transition: 0.5s;
+    margin-right: 0px;
+}
+
+.search i:hover {
+    background-color: blue;
+}
+
+.dropdown {
+    padding-top: 38px;
+}
+
+.dropdown .btn {
+    background-color: aliceblue;
+    color: black;
+    border: none;
+}
+
+.menu ul li a {
+    color: black;
+    font-weight: 600;
+}
+
+.menu {
+    padding-top: 30px;
+}
+
+.social {
+    padding-top: 40px;
+    margin-bottom: 50px;
+    padding-left: 85px;
+}
+
+.social a {
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 8px 10px;
+    font-size: 15px;
+    margin-right: 5px;
+    transition: 0.5s;
+    color: black;
+}
+
+.social a:hover {
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+/* navbar */
+.navbar_bg {
+    background-color: blueviolet;
+    padding: 0px;
+}
+
+.navbar button {}
+
+.navbarr ul li a {
+    padding: 15px 0px 15px 0px;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.navbarr ul li {
+    padding-right: 55px;
+}
+
+.navbarr ul li a:hover {
+    color: rgba(6, 22, 250, 0.952);
+}
+
+.cart {
+    padding-top: 7px;
+    padding-left: 200px;
+}
+
+.cart button {
+    position: relative;
+    background-color: rgb(240, 10, 221);
+    overflow: hidden;
+    text-align: center;
+    padding: 8px 15px;
+    border: none;
+    z-index: 1;
+}
+
+.cart button::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0%;
+    transition: 0.8s;
+    left: -20%;
+    right: 0%;
+    transform: skew(135deg);
+    z-index: -1;
+    background-image: linear-gradient(to bottom right, #f50919, #ac08a6);
+    color: aliceblue;
+}
+
+.cart button:hover::after {
+    width: 180px;
+    color: aliceblue;
+}
+
+.cart a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.cart a:hover {
+    color: aliceblue;
+}
+
+/* banner */
+.carousel-item h3 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.carousel-item h1 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.carousel-item p {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.carousel-item h4 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.carousel-text {
+    padding: 20px 0px;
+    background-image: linear-gradient(to bottom right, rgba(170, 9, 170, 0.388), rgba(252, 9, 147, 0.369));
+    margin-bottom: 150px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.carousel-text p span {
+    color: #fdfcfc;
+    letter-spacing: -5px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
